@@ -1,8 +1,9 @@
 var str = "webcamp"
 
-function foo() {
+function foo() { 
+  var str
   console.log(str)
-  var str = "dmm webcamp"
+  str = "dmm webcamp"
   console.log(str)
 }
 
